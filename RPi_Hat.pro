@@ -1,4 +1,4 @@
-update=Mon 09 Jan 2017 17:11:23 SAST
+update=Mon 16 Jan 2017 23:14:56 SAST
 version=1
 last_client=kicad
 [cvpcb]
@@ -24,8 +24,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -38,7 +36,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../RPi_Hat_Template-master
+LibDir=../RPi_Hat_Template-master;../vhf_uhf_preamp
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -72,3 +70,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=xess
 LibName32=RPi_Hat-cache
+LibName33=/home/anton/Downloads/Kicad/vhf_uhf_preamp/SMA
+[general]
+version=1

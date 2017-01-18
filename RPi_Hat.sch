@@ -29,11 +29,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:RPi_Hat-cache
+LIBS:SMA
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -43,12 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 900  5900 1000 1000
-U 5515D395
-F0 "RPi_GPIO" 60
-F1 "RPi_GPIO.sch" 60
-$EndSheet
 $Comp
 L RPi_GPIO J3
 U 1 1 5873A850
@@ -237,17 +232,6 @@ F 3 "" H 7600 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BNC P4
-U 1 1 5873BD61
-P 8200 2050
-F 0 "P4" H 8210 2170 50  0000 C CNN
-F 1 "SMA" H 8200 2250 50  0000 C CNN
-F 2 "" H 8200 2050 50  0001 C CNN
-F 3 "" H 8200 2050 50  0000 C CNN
-	1    8200 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR04
 U 1 1 5873BE4D
 P 7600 2550
@@ -396,7 +380,7 @@ U 1 1 5873CB85
 P 5850 1200
 F 0 "P2" H 5850 1450 50  0000 C CNN
 F 1 "4Sip200" V 5950 1200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 6200 1550 50  0000 C CNN
+F 2 "Connect:AK300-4" H 6200 1550 50  0000 C CNN
 F 3 "" H 5850 1200 50  0000 C CNN
 	1    5850 1200
 	1    0    0    -1  
@@ -458,7 +442,7 @@ F 3 "" H 3650 2300 50  0000 C CNN
 $EndComp
 Text Label 6100 1200 0    60   ~ 0
 PTT
-Text Label 8400 2050 0    60   ~ 0
+Text Label 8400 2100 0    60   ~ 0
 2mTXtoAMP
 $Comp
 L GND #PWR019
@@ -535,17 +519,6 @@ F 1 "47uF" H 5360 3120 50  0000 L CNN
 F 2 "Capacitors_SMD:c_elec_6.3x5.7" H 5350 3200 50  0001 C CNN
 F 3 "" H 5350 3200 50  0000 C CNN
 	1    5350 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L LM7805 U1
-U 1 1 5874847B
-P 4850 3100
-F 0 "U1" H 5000 2904 50  0000 C CNN
-F 1 "LM7805" H 4850 3300 50  0000 C CNN
-F 2 "TO220" H 4850 3400 50  0000 C CNN
-F 3 "" H 4850 3100 50  0000 C CNN
-	1    4850 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -685,8 +658,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 2150 7600 2050
 Connection ~ 7600 2050
-Wire Wire Line
-	8200 2250 8200 2350
 Wire Wire Line
 	7600 2450 7600 2550
 Wire Wire Line
@@ -847,4 +818,32 @@ NoConn ~ 3500 2500
 NoConn ~ 3500 2400
 NoConn ~ 3500 2100
 NoConn ~ 1650 1200
+$Comp
+L LM7805 U1
+U 1 1 5874847B
+P 4850 3100
+F 0 "U1" H 5000 2904 50  0000 C CNN
+F 1 "LM7805" H 4850 3300 50  0000 C CNN
+F 2 "Power_Integrations:TO-220" H 5000 3400 50  0000 C CNN
+F 3 "" H 4850 3100 50  0000 C CNN
+	1    4850 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SMA P4
+U 1 1 587D7F9F
+P 8200 2050
+F 0 "P4" H 8280 2050 40  0000 L CNN
+F 1 "SMA" H 8200 2105 30  0001 C TNN
+F 2 "Bacar:SMA_Edge" H 8550 1900 60  0000 C CNN
+F 3 "" H 8200 2050 60  0000 C CNN
+	1    8200 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2350 8200 2250
+Wire Wire Line
+	8200 2250 8050 2250
+Wire Wire Line
+	8050 2250 8050 2100
 $EndSCHEMATC

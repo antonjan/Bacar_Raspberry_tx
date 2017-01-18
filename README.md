@@ -7,3 +7,6 @@ Here is the filter design details.
 Filter similator Diagram
 ![Alt text](7_stage_2m_filter_2.png?raw=true "Filter diagram")
 The PCB files is Kicad file format.
+The circuit diagram
+
+![Alt text](Bacar_s_diagram.png?raw=true "Raspberry Pi hat Circuit diagram")

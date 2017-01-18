@@ -10,3 +10,5 @@ The PCB files is Kicad file format.
 The circuit diagram
 
 ![Alt text](Bacar_s_diagram.png?raw=true "Raspberry Pi hat Circuit diagram")
+PCB layout diagram during design
+![Alt text](Bacar_PCB_2.png?raw=true "PCB diagram")

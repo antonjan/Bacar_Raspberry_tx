@@ -12,3 +12,5 @@ The circuit diagram
 ![Alt text](Bacar_s_diagram.png?raw=true "Raspberry Pi hat Circuit diagram")
 PCB layout diagram during design
 ![Alt text](Bacar_PCB_2.png?raw=true "PCB diagram")
+Chnaged Connectors transistor and regulator
+![Alt text](Bacar_PCB_3.png?raw=true "PCB diagram")

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:RPi_Hat-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,17 +28,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:RPi_Hat-cache
-LIBS:SMA
+LIBS:Raspberry_Pi_2m_TX_LPF_7Stage-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Raspberry Pi 2m TX"
+Date "2017-01-31"
+Rev "1"
+Comp "Giga Technology"
 Comment1 ""
 Comment2 ""
 Comment3 ""

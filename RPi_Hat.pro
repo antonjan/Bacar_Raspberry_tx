@@ -1,4 +1,4 @@
-update=Wed 25 Jan 2017 22:23:53 SAST
+update=Tue 31 Jan 2017 21:10:03 SAST
 version=1
 last_client=kicad
 [cvpcb]
@@ -14,8 +14,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../RPi_Hat_Template-master;../vhf_uhf_preamp
@@ -73,3 +71,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[general]
+version=1

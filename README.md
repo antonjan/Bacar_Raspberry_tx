@@ -20,4 +20,6 @@ PCB layout diagram during design
 <br>
 Chnaged Connectors transistor and regulator
 ![Alt text](Bacar_PCB_3.png?raw=true "PCB diagram")
-0
+
+PCB 3D view
+![Alt text](PCB_3D_Model.png?raw=true "PCB 3D Layout")

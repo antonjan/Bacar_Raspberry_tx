@@ -1,6 +1,9 @@
 This board is almost compleet still need to fix some track withs and 5V net list.
 
 This repository will have all the files for the PCB that fits on a Raspberry Pi witch will have a 7 stage low pass filter for the VHF 2m band. (About 60db down for first harmonic) 
+To Do.
+1) Raspberry pin connection check
+2) DRC and ref text placement
 
 This board is to be used with the rpitx utility to alow you to transmit on the 2m VHF band.
 This board will have 7 stage lowpass filter.

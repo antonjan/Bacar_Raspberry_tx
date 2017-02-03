@@ -1,0 +1,26 @@
+### Module positions - created on Fri 03 Feb 2017 16:59:24 SAST ###
+### Printed by Pcbnew version pcbnew 4.0.2+dfsg1-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                    PosX       PosY       Rot  Side
+C1        10nf      C_0805                  53.3400   -41.2750   90.0000  top
+C2        1uF       c_elec_4x5.7            69.8500   -72.3900  180.0000  top
+C3        47uF      c_elec_6.3x5.7          73.0250   -59.6900    0.0000  top
+C4        33pF      C_0805_HandSoldering    54.6100   -62.2300    0.0000  top
+C5        36pF      C_0805                  54.3560   -71.2470    0.0000  top
+C6        33pF      C_0805                  54.3560   -80.0100    0.0000  top
+L1        56nH      C_0805_HandSoldering    53.3400   -58.4200  270.0000  top
+L2        110nH     C_0805_HandSoldering    53.3400   -66.6750  270.0000  top
+L3        110nH     C_0805_HandSoldering    53.3400   -75.5650  270.0000  top
+L4        56nH      C_0805_HandSoldering    46.9900   -80.0100    0.0000  top
+Q1        BC817-40  SOT-23                  84.4550   -42.5450  180.0000  top
+R1        4k7       R_0805                  85.0900   -38.7350   90.0000  top
+R2        0         R_0805                  53.3400   -45.7200   90.0000  top
+R3        oc        R_0805                  54.3560   -49.5300    0.0000  top
+R4        0         R_0805                  85.0900   -48.2600  180.0000  top
+R5        0         R_0805                  53.3400   -53.3400   90.0000  top
+R6        0         R_0805                  45.7200   -74.9300  270.0000  top
+R7        oc        R_0805                  46.8630   -71.8820    0.0000  top
+R8        0         R_0805                  44.7040   -69.8500    0.0000  top
+R9        250       R_0805                  60.9600   -76.2000    0.0000  top
+## End

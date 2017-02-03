@@ -1,0 +1,4 @@
+Plot: '/home/anton/Downloads/Kicad/RPi_Hat_Template-master/meta/Raspberry_Pi_2m_TX_2-F.Cu.svg' OK.
+Plot: '/home/anton/Downloads/Kicad/RPi_Hat_Template-master/meta/Raspberry_Pi_2m_TX_2-B.Cu.svg' OK.
+Plot: '/home/anton/Downloads/Kicad/RPi_Hat_Template-master/meta/Raspberry_Pi_2m_TX_2-B.SilkS.svg' OK.
+Plot: '/home/anton/Downloads/Kicad/RPi_Hat_Template-master/meta/Raspberry_Pi_2m_TX_2-F.SilkS.svg' OK.

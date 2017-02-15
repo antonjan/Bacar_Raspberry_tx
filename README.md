@@ -20,4 +20,4 @@ Chnaged Connectors transistor and regulator
 ![Alt text](Bacar_PCB_3.png?raw=true "PCB diagram")
 
 PCB 3D view
-![Alt text](PCB_3D_Model.png?raw=true "PCB 3D Layout")
+![Alt text](Raspberry_Pi_Tx_2m_dual_filter.png?raw=true "PCB 3D Layout")

@@ -21,3 +21,5 @@ Chnaged Connectors transistor and regulator
 
 PCB 3D view
 ![Alt text](Raspberry_Pi_Tx_2m_dual_filter.png?raw=true "PCB 3D Layout")
+Top SMA Connector is linkd to one filter.
+Botom SMA connector is connected to 7 stage filter.

@@ -30,6 +30,9 @@ Botom SMA connector is connected to 7 stage filter.
 6dB Rf attenuator T (Kicad)
 ![Alt text](6db_RF_Attenuator.png?raw=true "6db rf Attenuator")
 <br>
+9dB Rf attenuator T (Kicad)
+![Alt text](9db_RF_Attenuator.png?raw=true "6db rf Attenuator")
+<br>
 PCB wave guide with Ground plane impedance calculator 50ohm (Kicad)
 ![Alt text](PCB_wave_guide_with_Ground_plane.png?raw=true "9db rf Attenuator")
 <br>

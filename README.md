@@ -18,8 +18,17 @@ PCB layout diagram during design
 <br>
 Chnaged Connectors transistor and regulator
 ![Alt text](Bacar_PCB_3.png?raw=true "PCB diagram")
-
+<br>
 PCB 3D view
 ![Alt text](Raspberry_Pi_Tx_2m_dual_filter.png?raw=true "PCB 3D Layout")
 Top SMA Connector is linkd to one filter.
 Botom SMA connector is connected to 7 stage filter.
+3DB RF Attenuator T (Kicad)
+<br>
+![Alt text](3db_Rf_attenuator.png?raw=true "3db rf Attenuator")
+<br>
+6dB Rf attenuator T (Kicad)
+![Alt text](6db_Rf_attenuator.png?raw=true "6db rf Attenuator")
+<br>
+6dB Rf attenuator T (Kicad)
+![Alt text](9db_Rf_attenuator.png?raw=true "9db rf Attenuator")

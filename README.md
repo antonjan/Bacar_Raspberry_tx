@@ -23,8 +23,8 @@ PCB 3D view
 ![Alt text](Raspberry_Pi_Tx_2m_dual_filter.png?raw=true "PCB 3D Layout")
 Top SMA Connector is linkd to one filter.
 Botom SMA connector is connected to 7 stage filter.
-3DB RF Attenuator T (Kicad)
 <br>
+3DB RF Attenuator T (Kicad)
 ![Alt text](3db_Rf_attenuator.png?raw=true "3db rf Attenuator")
 <br>
 6dB Rf attenuator T (Kicad)
